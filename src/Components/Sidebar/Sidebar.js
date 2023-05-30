@@ -44,7 +44,7 @@ const Sidebar = () => {
           {SidebarData.map((items, i) => {
             return (
               <div
-                className={selected == i ? "menuItem active" : "menuItem"}
+                className={selected === i ? "menuItem active" : "menuItem"}
                 key={i}
                 onClick={() => setSelected(i)}
               >

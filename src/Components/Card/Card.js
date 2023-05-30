@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { motion, LayoutGroup, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import "./Card.css";
 import { UilTimes } from "@iconscout/react-unicons";
 import Chart from "react-apexcharts";
