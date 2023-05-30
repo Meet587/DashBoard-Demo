@@ -1,5 +1,5 @@
 /* @import './assets/Themes/dark.css'; */
-/* @import './assets/Themes/light.css'; */
+@import './assets/Themes/light.css';
 
 /* :root {
   --yellow: linear-gradient(180deg, #F8D49A -146.42%, #FAD79D -46.42%);
@@ -46,7 +46,7 @@ body{
 }
 @media screen and (max-width: 768px){
   .AppGlass{
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(1, 1fr);
   }
   .AppGlass::-webkit-scrollbar{
     display: none;

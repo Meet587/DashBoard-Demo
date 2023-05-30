@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const Sidebar = () => {
   const [selected, setSelected] = useState(0);
-  const [expended, setExpended] = useState(true);
+  const [expended, setExpended] = useState(false);
   const SidebarVariants = {
     true: {
       left: "0",
