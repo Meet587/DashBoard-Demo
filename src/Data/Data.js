@@ -48,7 +48,7 @@ export const CardData = [
     title: "Sales",
     color: Theme === "dark" ? CardDark.Card1 : CardLight.Card1,
     barValue: 70,
-    value: "25,970",
+    value: "25,980",
     png: UilUsdSquare,
     series: [
       {
